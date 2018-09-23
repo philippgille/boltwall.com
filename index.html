@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>boltwall.com</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="vendor/simple-line-icons/css/simple-line-icons.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+
+    <!-- Plugin CSS -->
+    <link rel="stylesheet" href="device-mockups/device-mockups.min.css">
+
+    <!-- Custom styles for this template -->
+    <link href="css/new-age.css" rel="stylesheet">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="img/favicon.png">
+
+</head>
+
+<body id="page-top">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand js-scroll-trigger" href="#page-top">boltwall</a>
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          Menu
+          <i class="fas fa-bars"></i>
+        </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#features">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#use">Use</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="masthead">
+        <div class="container h-100">
+            <div class="row h-100">
+                <div class="col-lg-8 my-auto">
+                    <div class="header-content mx-auto">
+                        <h1 class="mb-5">Web service middlewares for monetizing your API on a per-request basis with Bitcoin and Lightning</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="download bg-primary text-center" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 mx-auto">
+                    <h2 class="section-heading">Discover what all the buzz is about!</h2>
+                    <p style="text-align: justify">The <a href="http://lightning.network/" target="_blank" class="dark-link"><strong>Lightning Network</strong></a> (LN) is an implementation of routed payment channels, which enables real near-instant microtransactions with extremely
+                        low fees, which cryptocurrencies have long promised, but never delivered. It's a second layer on top of existing cryptocurrencies like Bitcoin that scales far beyond the limitations of the underlying blockchain.</p>
+                    <p><strong>Boltwall makes it easy to set up an API paywall for payments via LN.</strong>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-gray text-center" id="">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 mx-auto">
+                    <h2 class="section-heading">See a demo of an API that's paywalled for LN payments:</h2>
+                    <a href="https://lightning.ws" class="btn btn-primary btn-xl">https://lightning.ws</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="features" id="features">
+        <div class="container">
+            <div class="section-heading text-center">
+                <h2>Features</h2>
+                <p class="text-muted">Check out what you can do with this!</p>
+                <hr>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 my-auto">
+                </div>
+                <div class="col-lg-12 my-auto">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-lg-4">
+                                <div class="feature-item">
+                                    <i class="fas fa-money-bill"></i>
+
+                                    <h3>Nanopayments</h3>
+                                    <p class="text-muted">Nanopayments on a<br/>per-request basis</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="feature-item">
+                                    <i class="fas fa-calculator"></i>
+                                    <h3>Flexible pricing</h3>
+                                    <p class="text-muted">Different request prices for different API endpoints</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="feature-item">
+                                    <i class="fas fa-bolt"></i>
+                                    <h3>LN backend agnostic</h3>
+                                    <p class="text-muted">Supports lnd and c-lightning as LN node backend</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-4">
+                                <div class="feature-item">
+                                    <i class="far fa-hdd"></i>
+                                    <h3>Storage agnostic</h3>
+                                    <p class="text-muted">Supports multiple caches (simple map, SQLite, Bolt DB, Redis)</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="feature-item">
+                                    <i class="far fa-hand-paper"></i>
+                                    <h3>Cheat prevention</h3>
+                                    <p class="text-muted">Clients can't do anything other than what they paid for, and a payment is only valid for one single request</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="feature-item">
+                                    <i class="fab fa-osi" style="font-weight: bolder;"></i>
+                                    <h3>Open Source</h3>
+                                    <p class="text-muted">Free software, licensed under the Mozilla Public License</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta text-center" id="use">
+        <div class="overlay"></div>
+        <div class="cta-content">
+
+            <div class="container">
+
+                <h2>Stop waiting. Start building.</h2>
+
+                <div class="row">
+                    <div class="col-lg-3">
+                        <h3>Using Go</h3>
+                        <a href="https://github.com/philippgille/ln-paywall" target="_blank" class="btn btn-outline btn-xl js-scroll-trigger">ln-paywall</a>
+                    </div>
+                    <div class="col-lg-3">
+                        <h3>Using Spring Boot</h3>
+                        <a href="" target="_blank" class="btn btn-outline btn-xl disabled" disabled>Coming Soon</a>
+                    </div>
+                    <div class="col-lg-3">
+                        <h3>Using ASP.NET Core</h3>
+                        <a href="" target="_blank" class="btn btn-outline btn-xl disabled" disabled>Coming Soon</a>
+                    </div>
+                    <div class="col-lg-3">
+                        <h3>Using Express or Koa</h3>
+                        <a href="" target="_blank" class="btn btn-outline btn-xl disabled" disabled>Coming Soon</a>
+                    </div>
+                </div>
+
+            </div>
+
+    </section>
+
+    <section class="contact bg-primary" id="contact">
+        <div class="container">
+            <h2>Follow us on</h2>
+            <ul class="list-inline list-social">
+                <li class="list-inline-item">
+                    <a href="https://twitter.com/philippgille">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                </li>
+                <li class="list-inline-item">
+                    <a href="https://github.com/philippgille/">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; Boltwall 2018. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="js/new-age.min.js"></script>
+
+</body>
+
+</html>
